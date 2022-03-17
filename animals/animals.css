@@ -1,12 +1,12 @@
 @font-face {
-  font-family: 'Geomanist Bold';
-  src: url('fonts/geomanist-bold.woff2') format('woff2'),
-    url('fonts/geomanist-bold.woff') format('woff');
+  font-family: "Geomanist Bold";
+  src: url("fonts/geomanist-bold.woff2") format("woff2"),
+    url("fonts/geomanist-bold.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
 :root {
-  font-family: 'Geomanist Bold', sans-serif;
+  font-family: "Geomanist Bold", sans-serif;
 }
 
 /* Box sizing rules */
@@ -27,7 +27,7 @@ figcaption {
 
 h1,
 h2 {
-  font-family: 'Geomanist Bold';
+  font-family: "Geomanist Bold";
   font-weight: 900;
   text-transform: uppercase;
   font-size: 10rem;
@@ -108,4 +108,23 @@ img {
 
 figure {
   max-width: 400px;
+}
+figcaption {
+  position: absolute;
+  bottom: 20px;
+}
+.box {
+  position: relative;
+  top: 160px;
+}
+figure {
+  position: absolute;
+  top: 0;
+  left: 50px;
+}
+.heading {
+  position: fixed;
+  z-index: 10;
+  background-color: white;
+  width: 100%;
 }

@@ -4,6 +4,7 @@
 
 html,
 body {
+  background-color: white;
   min-height: 100%;
   width: 100%;
   font-family: Helvetica, Arial, sans-serif;
@@ -33,4 +34,9 @@ body {
 
 .row {
   display: block;
+}
+@media (min-width: 1200px) {
+  .row {
+    display: flex;
+  }
 }

@@ -1,1 +1,19 @@
-
+* {
+  box-sizing: border-box;
+}
+div {
+  width: 400px;
+  border-width: 1px;
+  border-color: blue;
+  border-style: solid;
+  height: 100px;
+  padding: 10px;
+}
+a {
+  width: 400px;
+  height: 100px;
+  padding: 0px;
+}
+img {
+  width: 400px;
+}
